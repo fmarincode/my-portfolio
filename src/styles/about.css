@@ -1,0 +1,50 @@
+.whoAmI {
+    width: 100%;
+    height: calc(100vh - 50px);
+    text-align: center;
+    color: #16425B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Segoe UI", Tahoma, 'Geneva', Verdana, sans-serif;
+    
+}
+.presentation {
+    width: 90%;
+    text-align: justify;
+
+}
+
+.whoAmI a {
+    text-decoration: none;
+    color: #16425B;
+}
+
+.moreClicking {
+    cursor: pointer;
+}
+.moreClicking:hover {
+    font-weight: bold;
+}
+
+@media screen and (min-width : 1224px){
+
+ .whoAmI{
+    height: 100%;
+    margin-top: 100px;
+ }
+
+ .whoAmI h2{
+    font-size: 2rem;
+ }
+ .presentation {
+    width: 40%;
+    font-size: 1.2rem;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+}

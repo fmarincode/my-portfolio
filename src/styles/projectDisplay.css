@@ -99,3 +99,16 @@
     }
 
 }
+
+
+@media screen and (min-width : 1024px){
+
+    .project {
+        grid-template-columns: repeat(2, 600px);
+       
+        }
+   
+    .showVideo {
+        margin-top: 40px;
+    }
+}

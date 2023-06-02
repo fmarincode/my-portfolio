@@ -10,7 +10,7 @@ function Home() {
           <p>A web developer with a passion for learning.</p>
           <hr></hr>
             <div className="welcomeTo">
-              <h2 >Welcome to my portfolio, where I'll be showing you the projects I'm working on.</h2>  
+              <h2 >Welcome to my portfolio, where I share my passion with you.</h2>  
             </div>
           
 

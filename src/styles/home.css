@@ -1,0 +1,144 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh -50px);
+    color: #16425B;
+
+  }
+  
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+  }
+  
+  .hello {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 60px;
+  }
+
+
+  p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    margin-top: 16px;
+  }
+  
+  .welcomeTo {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  .presentationImg {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    max-height: 540px;
+  }
+  
+  .presentationImg img {
+    max-width: 100%;
+    max-height: 500px;
+    border-radius: 20px;
+    background-image: 
+    radial-gradient(
+        circle at 17% 77%, rgba(17, 17, 17,0.04) 0%, rgba(17, 17, 17,0.04) 50%,rgba(197, 197, 197,0.04) 50%, rgba(197, 197, 197,0.04) 100%
+        ),
+    radial-gradient(
+        circle at 26% 17%, rgba(64, 64, 64,0.04) 0%, rgba(64, 64, 64,0.04) 50%,rgba(244, 244, 244,0.04) 50%, rgba(244, 244, 244,0.04) 100%
+        ),
+    radial-gradient(
+        circle at 44% 60%, rgba(177, 177, 177,0.04) 0%, rgba(177, 177, 177,0.04) 50%,rgba(187, 187, 187,0.04) 50%, rgba(187, 187, 187,0.04) 100%
+        ),
+    linear-gradient(
+        19deg, rgb(22,66,91),rgb(89,41,65)
+        );
+  }
+  
+  hr {
+    margin-top: 12px ;
+    width: 30%;
+    height: 2px;
+    border: 0 none;
+    background: linear-gradient(90deg, rgba(217,220,214,1) 0%, rgba(22,66,91,1) 50%, rgba(217,220,214,1) 100%);
+   
+  }
+
+ 
+@media screen and (min-width : 1224px){
+  .home {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10vh;
+    
+  }
+
+  .about {
+    margin-right: 10%;
+  }
+  .presentationImg {
+    max-width: 400px;
+    max-height: 700px;
+
+  }
+  
+  .hello{
+    font-size: 4rem;
+  }
+
+  .about p {
+    font-size: 1.5rem;
+  }
+
+  .welcomeTo {
+    font-size: 1rem;
+  }
+  
+  .presentationImg img {
+    max-height: 600px;
+
+  }
+
+}
+
+
+@media screen and (min-width : 1024px){
+  .home {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 8vh;
+    
+  }
+
+  .about {
+    margin-right: 8%;
+  }
+
+  
+  .hello{
+    font-size: 3rem;
+    margin-top: -10vh;
+  }
+
+  .about p {
+    font-size: 1.5rem;
+  }
+
+  .welcomeTo {
+    font-size: 1rem;
+  }
+  
+  .presentationImg img {
+    max-height: 500px;
+
+  }
+
+}

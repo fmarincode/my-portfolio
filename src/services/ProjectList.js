@@ -36,9 +36,9 @@ export const ProjectList = [
       images: [homeXchange, figmaHackathon, demoHackathon],
       video: hackathonVideo,
       introduction: 'Here is a special project because it was created during the hackathon, an event where we have to code a website within a time limit. With my group, we had a day and a half to do it. The assigned theme was "Holidays".',
-      storyTelling: "We took the time to write down all the ideas we had regarding this theme. There were plenty of options, so we brainstormed to choose the project that seemed most feasible within the time constraint, as well as the most relevant and original. The website we created offers people who wish to travel the opportunity to stay with a host, on the condition that they take care of the host's pets while they are away. To accomplish this, we utilized two APIs to generate random users and dogs.",
+      storyTelling: "We took the time to write down all the ideas we had regarding this theme. There were plenty of options, so we brainstormed to choose the project that seemed most feasible within the time constraint, as well as the most relevant and original. The website we created offers people who wish to travel the opportunity to stay with a host, on the condition that they take care of the host's pets while they are away.",
 
       conclusion: "It was challenging, and we would have liked to have more time to achieve a visually appealing and cohesive design that aligned with our idea. However, we were able to leverage our technical knowledge and present a functional website. Prior to starting this hackathon, I wasn't a fan of such tight time constraints, but I eventually adapted and learned to work and cooperate effectively with my team.",
-      skills: "We built this website using HTML & CSS, of course, but also with the help of the ReactJS library and Figma for our mockup.",
+      skills: "To accomplish this, we utilized two APIs to generate random users and dogs.We built this website using HTML & CSS, of course, but also with the help of the ReactJS library and Figma for our mockup.",
     }
   ];

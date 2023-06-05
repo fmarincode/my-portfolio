@@ -85,7 +85,7 @@
 
 
     .projectSkills{
-        padding-top: 200px;
+        padding-top: 250px;
     }
 
     .showDemo img {
@@ -111,4 +111,6 @@
     .showVideo {
         margin-top: 40px;
     }
+
+    
 }

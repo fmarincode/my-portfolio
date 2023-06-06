@@ -55,6 +55,16 @@
     width: 80%;
 }
 
+.githubLink svg {
+    color: black;
+    margin-left: 5px;
+}
+
+.githubLink a {
+    text-decoration: none;
+    color: #16425B;
+}
+
 @media screen and (min-width : 1224px){
 
     .project {

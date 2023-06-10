@@ -1,7 +1,8 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { ProjectList } from '../services/ProjectList';
-import "../styles/projectDisplay.css"
+import "../styles/projectDisplay.css";
+import {BsGithub} from 'react-icons/bs';
 
 const ProjectDisplay = () => {
     const { id } = useParams()
@@ -37,7 +38,14 @@ const ProjectDisplay = () => {
                 </div>
                 <p className='projectConclusion'>
                     {project.conclusion}
+                    <br />
+                     <br />
+                        <div className='githubLink'>
+                            <a href={project.githubLink} rel="noreferrer" target="_blank">{project.name} Github <BsGithub /></a>
+                        </div>
                 </p>
+                
+            
             
         </div>
         </div>

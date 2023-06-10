@@ -21,6 +21,7 @@ export const ProjectList = [
       storyTelling: 'We created different pages with a lot of CSS because we were very inspired by the space environment. Then we made it work with some javascript code and here you can see the three pages. As for questions, the subjects revolved around our weekly lessons.',
       conclusion: 'I am particularly proud of this project! It was the first one and I had a lot of fun working with my team. We had a lot of fun while respecting the expectations placed on us. It was after this project that I said to myself “ok I love css” !',
       skills: "For this project we started on Figma, then we used HTML, CSS & JavaScript.",
+      githubLink: "https://github.com/fmarincode/Quiz-game-project",
     },
     {
       name: "The Nook Shop",
@@ -30,15 +31,16 @@ export const ProjectList = [
       storyTelling: "The idea is that we are on a virgin island and we have access to Tom Nook's shop which does everything to make us spend our money.",
       conclusion: "This project was a really good exercice for us because we have been confronted with problems & it was hard to deal with. But we finally respected the delay and presented our website with success. To me, it was a new communication experience with Agile method and I appreciated to be a scrum master, but it wasn't easy !",
       skills: "For this project we started on Figma, then we used HTML, CSS & ReactJS. Our workflow was made easy by Git, Github and the Agile method.",
+      githubLink: "https://github.com/WildCodeSchool/2023-02-JS-Lille-project-2-groupe1",
     },
     {
       name: "HomeChange",
       images: [homeXchange, figmaHackathon, demoHackathon],
       video: hackathonVideo,
       introduction: 'Here is a special project because it was created during the hackathon, an event where we have to code a website within a time limit. With my group, we had a day and a half to do it. The assigned theme was "Holidays".',
-      storyTelling: "We took the time to write down all the ideas we had regarding this theme. There were plenty of options, so we brainstormed to choose the project that seemed most feasible within the time constraint, as well as the most relevant and original. The website we created offers people who wish to travel the opportunity to stay with a host, on the condition that they take care of the host's pets while they are away.",
-
+      storyTelling: "We took the time to write down all the ideas we had regarding this theme. There were plenty of options, so we brainstormed to choose the project that seemed most feasible within the time constraint, as well as the most relevant and original. The website we created offers people who wish to travel the opportunity to stay with a host, on the condition that they take care of the host's pets while they are away. To accomplish this, we utilized two APIs to generate random users and dogs.",
       conclusion: "It was challenging, and we would have liked to have more time to achieve a visually appealing and cohesive design that aligned with our idea. However, we were able to leverage our technical knowledge and present a functional website. Prior to starting this hackathon, I wasn't a fan of such tight time constraints, but I eventually adapted and learned to work and cooperate effectively with my team.",
-      skills: "To accomplish this, we utilized two APIs to generate random users and dogs.We built this website using HTML & CSS, of course, but also with the help of the ReactJS library and Figma for our mockup.",
+      skills: "We built this website using HTML & CSS, of course, but also with the help of the ReactJS library and Figma for our mockup.",
+      githubLink: "https://github.com/hugocoding21/Hackathon",
     }
   ];

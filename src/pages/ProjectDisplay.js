@@ -38,10 +38,13 @@ const ProjectDisplay = () => {
                 </div>
                 <p className='projectConclusion'>
                     {project.conclusion}
+                    <br />
+                     <br />
+                        <div className='githubLink'>
+                            <a href={project.githubLink} rel="noreferrer" target="_blank">{project.name} Github <BsGithub /></a>
+                        </div>
                 </p>
-                <div className='githubLink'>
-                    <a href={project.githubLink} rel="noreferrer" target="_blank">{project.name} Github <BsGithub /></a>
-                </div>
+                
             
             
         </div>

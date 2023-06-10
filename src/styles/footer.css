@@ -13,7 +13,7 @@
 }
 .footer a {
   color: black;
-  font-size: 16px;
+  font-size: 24px;
 }
 
 .footer a:active {
@@ -31,8 +31,6 @@
   justify-content: flex-end;
   gap: 10px;
 }
-
-
 
 
 @media screen and (min-width: 1224) {
@@ -55,16 +53,6 @@
     font-size: 20px;
   }
   
-  .footer a:active {
-    text-decoration: none;
-  }
-  
-  
-  .externLinksWrapper {
-    display: flex;
-    justify-content: flex-end;
-    gap: 10px;
-  }
   
   
 }

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "../styles/about.css"
+import cvVideo from "../assets/CV.mp4";
 
 const About = () => {
     const [moreInfos, setMoreInfos] = useState(false)
@@ -12,7 +13,12 @@ const About = () => {
 
     return (
         <div className="whoAmI">
-      
+                <div> 
+                    <video controls width="40%" controlsList="nodownload">
+                        <source src={cvVideo} type="video/mp4" />
+                    Sorry, your browser doesn't support videos.
+                    </video>
+                </div>
             <h2>What about me ?</h2>
                 <p className="presentation">I have been a web developer since February 2023, learning every day to do more and better. But you'll discover that by visiting this site. Before, I worked in audiovisual post-production in Paris and decided to change job. To tell you about myself, I love the cinema (the dark room is better by far than the computer screen, right ?), I like running a lot, it clears my mind and I'm getting better every year. 
                 If you want to talk for hours, talk to me about arts from cartoons to your favourite music of shame with the films you like to watch over and over again.</p> <p className="moreClicking" onClick={handleClickForMore}>More about me </p>

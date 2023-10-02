@@ -11,6 +11,10 @@ import homeXchange from "../assets/hackathon/homexchange.png";
 import figmaHackathon from "../assets/hackathon/figma-hackathon.png";
 import demoHackathon from "../assets/hackathon/hackathon-demo-2.png";
 import hackathonVideo from "../assets/hackathon/hackathon.mp4";
+import showInovin from "../assets/inovin/showInovin.png";
+import inovinDemo from "../assets/inovin/inovin.mp4";
+import inovinFigma from "../assets/inovin/figma.jpg";
+import inovinPrez from "../assets/inovin/inovinPrez.jpg"
 
 export const ProjectList = [
     {
@@ -42,5 +46,16 @@ export const ProjectList = [
       conclusion: "It was challenging, and we would have liked to have more time to achieve a visually appealing and cohesive design that aligned with our idea. However, we were able to leverage our technical knowledge and present a functional website. Prior to starting this hackathon, I wasn't a fan of such tight time constraints, but I eventually adapted and learned to work and cooperate effectively with my team.",
       skills: "We built this website using HTML & CSS, of course, but also with the help of the ReactJS library and Figma for our mockup.",
       githubLink: "https://github.com/hugocoding21/Hackathon",
+    },
+    {
+      name: "Inovin",
+      images: [inovinPrez, inovinFigma, showInovin ],
+      video: inovinDemo,
+      introduction: 'Inovin is the last project. There is Cédric who working on an idea of wine tasting with a recipe creation in various unusual locations. Then, with my group we talked with him and the ideas came to us. For this workshop, the goal was to create a tablet application.',
+      storyTelling: "For this project we are in fullstack positions, from draw the database to the presentation with front and backend situations. To respect the request and deadline we did choice and we did the admin work for the wine management system but we were focus on the user experience. When you are at the workshop, you sign in then you taste some wine propositions and you let your advice about it. After that, your 3 favorite wine are ready for the creation workshop. Here you choose the percentage of each grape variety to create your wine.",
+
+      conclusion: "It was the project where I've made the most progress because there are a lot of functions to do to link the front with the back. But as it was a group project, with the help of my friends we managed to do what we wanted.",
+      skills: "We built this app using JavaScript language with React, Node, Express, MySql and Figma for the model.",
+      githubLink: "https://github.com/WildCodeSchool/2023-02-JS-Lille-project-3-groupe3-inovin",
     }
   ];

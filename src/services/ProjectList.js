@@ -15,7 +15,13 @@ import showInovin from "../assets/inovin/showInovin.png";
 import inovinDemo from "../assets/inovin/inovin.mp4";
 import inovinFigma from "../assets/inovin/figma.jpg";
 import inovinPrez from "../assets/inovin/inovinPrez.jpg"
+import carbonDraw from "../assets/carbon_project/frameCarbon.png"
+import showCarbon from "../assets/carbon_project/showCarbon.png"
+import carbonVideo from "../assets/carbon_project/carbon_Project.mp4"
+import carbonThumb from "../assets/carbon_project/carbonProject.png"
 
+
+ 
 export const ProjectList = [
     {
       name: "Quiz Time ! An Odyssey Adventure",
@@ -57,5 +63,16 @@ export const ProjectList = [
       conclusion: "It was the project where I've made the most progress because there are a lot of functions to do to link the front with the back. But as it was a group project, with the help of my friends we managed to do what we wanted.",
       skills: "We built this app using JavaScript language with React, Node, Express, MySql and Figma for the model.",
       githubLink: "https://github.com/WildCodeSchool/2023-02-JS-Lille-project-3-groupe3-inovin",
+    },
+    {
+      name: "The Carbon Project",
+      images: [carbonThumb, carbonDraw, showCarbon],
+      video: carbonVideo,
+      introduction: "The Carbon Project is a personal project that I presented to my trainees and fellow students. This is the first one I've done by building the front and backend.It has not yen been completed, I need to make some features and fix some problems. I wanted to create a simple tool to calculate your CO2 emissions. I challenged myself on the style of the application. I still have work to do.",
+      storyTelling: "The idea is to indicate the city of departure and arrival, choose your means of transport (plane or car) and use this information to calculate your carbon print. For this project I started by looking for APIs. I found 'Carbon Interface' and 'Map Quest Developer' which are limited for free use and which complement each other well. They are easy to use but processing the data in my project was a big deal.",
+
+      conclusion: "I still have a lot to do on this project but I'm really excited by the idea, and the APIs are really good! I've been working on a mobile version, but it's not ready for release yet. ",
+      skills: "To built this app I used JavaScript language with React, Node, Express, MySql, JsonWebToken, Tailwind and Excalidraw for the model.",
+      githubLink: "https://github.com/fmarincode/theCarbonProject",
     }
   ];

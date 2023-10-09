@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "../styles/about.css"
-import cvVideo from "../assets/CV.mp4";
+import cvVideo from "../assets/CV_2.mp4";
 
 const About = () => {
     const [moreInfos, setMoreInfos] = useState(false)

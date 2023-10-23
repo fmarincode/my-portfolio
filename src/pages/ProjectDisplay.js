@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { ProjectList } from '../services/ProjectList';
-import "../styles/projectDisplay.css";
+/* import "../styles/projectDisplay.css"; */
 import {BsGithub} from 'react-icons/bs';
 
 const ProjectDisplay = () => {

@@ -6,7 +6,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { MdSchool } from 'react-icons/md'
 import { MdWorkOutline } from 'react-icons/md'
-import "../styles/experience.css"
+/* import "../styles/experience.css" */
 
 function Experiences() {
   return (

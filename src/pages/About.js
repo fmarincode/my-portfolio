@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "../styles/about.css"
+/* import "../styles/about.css" */
 import cvVideo from "../assets/CV_2.mp4";
 import runningPic from "../assets/illus/jakob-owens-A4579vLezz8-unsplash.jpg"
 

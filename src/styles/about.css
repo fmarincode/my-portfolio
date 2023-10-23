@@ -12,9 +12,8 @@
     
 }
 .presentation {
-    width: 90%;
     text-align: justify;
-
+    padding-left: 2%;
 }
 
 .whoAmI a {
@@ -31,6 +30,17 @@
 
 .moreClicking:hover {
     font-weight: bold;
+}
+
+.presentationSection {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    width: 70%;
+}
+
+.runningPic {
+    width: 30%
 }
 
 @media screen and (min-width : 1224px){

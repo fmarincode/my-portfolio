@@ -1,8 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/home.css";
 import projectsMin from "../assets/portfolio-p1-2-hack.png";
 
+
 function Home() {
+
+  const pdfUrl = "https://drive.google.com/file/d/1Dt5mLl6rW6jA7uItno5AK7EEPStq2pGM/view?usp=share_link"
+
   return (
     <div className="home">
       <div className="about">
@@ -12,6 +17,11 @@ function Home() {
             <div className="welcomeTo">
               <h2 >Welcome to my portfolio, where I share my passion with you.</h2>  
             </div>
+            <section className="linkSection">
+              <a href={pdfUrl} download target="blank" className="homeLinks">Download my Resume &gt;</a>
+              <Link to={"/projects"} className="homeLinks">View my projects &gt; </Link>
+
+            </section>
           
 
      

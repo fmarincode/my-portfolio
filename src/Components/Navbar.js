@@ -34,16 +34,16 @@ function Navbar() {
 
       <ul className="links">
           <li className="items" onClick={toggleNavMobileScreen}>
-          <NavLink to="/"> Home </NavLink>
+          <NavLink to="/"> HOME </NavLink>
           </li>
           <li className="items" onClick={toggleNavMobileScreen}>
-          <NavLink to="/projects"> Projects </NavLink>
+          <NavLink to="/projects"> PROJECTS </NavLink>
           </li>
           <li className="items" onClick={toggleNavMobileScreen}>
-          <NavLink to="/experience"> Experiences </NavLink>
+          <NavLink to="/experience"> EXPERIENCES </NavLink>
           </li>
           <li className="items" onClick={toggleNavMobileScreen}>
-          <NavLink to="/about"> About Me </NavLink>
+          <NavLink to="/about"> ABOUT ME </NavLink>
           </li>
           
           

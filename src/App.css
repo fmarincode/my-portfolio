@@ -1,10 +1,14 @@
 
+:root {
+  --firstColor: #16425B;
+  --secondColor: #E94F37;
+  --thirdColor: #D9DCD6;
+}
 
 .App {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #D9DCD6;
+  background-color: var(--thirdColor)
 
 }
-

@@ -1,6 +1,5 @@
 .navbar {
     line-height: 5vh;
-    background-color: #D9DCD6;
     font-family: "Segoe UI", Tahoma, 'Geneva', Verdana, sans-serif;
     display: flex;
     justify-content: center;
@@ -19,22 +18,21 @@
 }
 
 .navbar a {
-    color: rgb(0, 0, 0);
+    color: var(--secondColor);
     text-decoration: none;
     margin: 20px;
-    font-size: 25px;
+    font-size: 1.5rem;
     border-bottom: 1px solid #D9DCD6;
 }
 
 .items {
     margin-right: 10px;
-    color: #f1f1f1;
     cursor: pointer;
 }
 
 .navbar a:hover{
     padding-bottom: 5px;
-    border-bottom: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid var(--secondColor);
     
 }
 

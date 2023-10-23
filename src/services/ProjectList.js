@@ -17,7 +17,7 @@ import inovinFigma from "../assets/inovin/figma.jpg";
 import inovinPrez from "../assets/inovin/inovinPrez.jpg"
 import carbonDraw from "../assets/carbon_project/frameCarbon.png"
 import showCarbon from "../assets/carbon_project/showCarbon.png"
-import carbonVideo from "../assets/carbon_project/carbon_Project.mp4"
+import carbonVideo from "../assets/carbon_project/carbon_video.mp4"
 import carbonThumb from "../assets/carbon_project/carbonProject.png"
 
 

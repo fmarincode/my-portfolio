@@ -6,7 +6,7 @@ import {AiOutlineHome} from 'react-icons/ai'
 function Navbar() {
 
   return (
-    <nav className="bg-[--firstColor] bottom-0 fixed w-full h-10 flex items-center text-[--thirdColor]">
+    <nav className="bg-[--firstColor] bottom-0 fixed w-full h-10 flex items-center text-[--thirdColor] z-50">
       <ul className="flex w-full justify-around">
           <li className="" >
           <NavLink to="/"> <AiOutlineHome className='text-2xl'/> </NavLink>

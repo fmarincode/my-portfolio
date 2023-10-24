@@ -17,6 +17,8 @@ function Experiences() {
       <VerticalTimeline lineColor="#E94F37">
       <VerticalTimelineElement
           className="vertical-timeline-element--work"
+          contentStyle={{ background: '#16425B', color: '#D9DCD6' }}
+          contentArrowStyle={{ borderRight: '7px solid  #16425B' }}
           date="2023 - Today"
           iconStyle={{ background: "#E94F37", color: "#fff" }}
           icon={<MdSchool />}
@@ -38,6 +40,8 @@ function Experiences() {
         </VerticalTimelineElement>
       <VerticalTimelineElement
           className="vertical-timeline-element--work"
+          contentStyle={{ background: '#16425B', color: '#D9DCD6' }}
+          contentArrowStyle={{ borderRight: '7px solid  #16425B' }}
           date="2021 - 2022"
           iconStyle={{ background: "#E94F37", color: "#fff" }}
           icon={<MdWorkOutline />}
@@ -59,6 +63,8 @@ function Experiences() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
+          contentStyle={{ background: '#16425B', color: '#D9DCD6' }}
+          contentArrowStyle={{ borderRight: '7px solid  #16425B' }}
           date="2020 - 2021"
           iconStyle={{ background: "#E94F37", color: "#fff" }}
           icon={<MdWorkOutline />}
@@ -80,6 +86,8 @@ function Experiences() {
         
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
+          contentStyle={{ background: '#16425B', color: '#D9DCD6' }}
+          contentArrowStyle={{ borderRight: '7px solid  #16425B' }}
           date="2019 - 2020"
           iconStyle={{ background: "#E94F37", color: "#fff" }}
           icon={<MdSchool />}
@@ -99,6 +107,8 @@ function Experiences() {
        
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
+          contentStyle={{ background: '#16425B', color: '#D9DCD6' }}
+          contentArrowStyle={{ borderRight: '7px solid  #16425B' }}
           date="2017 - 2019"
           iconStyle={{ background: "#E94F37", color: "#fff" }}
           icon={<MdSchool />}
@@ -117,6 +127,8 @@ function Experiences() {
         
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
+          contentStyle={{ background: '#16425B', color: '#D9DCD6' }}
+          contentArrowStyle={{ borderRight: '7px solid  #16425B' }}
           date="2014 - 2017"
           iconStyle={{ background: "#E94F37", color: "#fff" }}
           icon={<MdSchool />}

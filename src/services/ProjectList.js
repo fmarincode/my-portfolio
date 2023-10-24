@@ -28,7 +28,7 @@ export const ProjectList = [
       images: [quizThumb, figmaQuiz, demoQuiz],
       video: quizVideo,
       introduction: 'This is the first web project I ever made. I worked in a group with 3 others students. The theme was suggested by our instructor and we started the project two weeks after our first class lesson. Our subject from this quiz game was to stay in web development learning and offer the possibility to review our knowledges with questions on javascript, css and git.',
-      storyTelling: 'We created different pages with a lot of CSS because we were very inspired by the space environment. Then we made it work with some javascript code and here you can see the three pages. As for questions, the subjects revolved around our weekly lessons.',
+      storyTelling: 'We created different pages with a lot of CSS because we were very inspired by the space environment. Then we made it work with some javascript code and here you can see the three pages. As for questions, the subjects revolved around our weekly lessons. ',
       conclusion: 'I am particularly proud of this project! It was the first one and I had a lot of fun working with my team. We had a lot of fun while respecting the expectations placed on us. It was after this project that I said to myself “ok I love css” !',
       skills: "For this project we started on Figma, then we used HTML, CSS & JavaScript.",
       githubLink: "https://github.com/fmarincode/Quiz-game-project",

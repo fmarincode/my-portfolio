@@ -9,42 +9,42 @@ const ProjectDisplay = () => {
     const project = ProjectList[id]
 
     return (
-        <main className='flex flex-col items-center w-full px-5 text-[--firstColor]'>
+        <main className='flex flex-col items-center w-full px-5 text-[--firstColor] mb-16 md:mt-16'>
             <section className='mt-5 text-justify flex flex-col items-center'>
-                <h1 className="font-medium text-xl"> {project.name}</h1>
-                <hr className="mt-2 w-1/2 bg-gradient-to-r from-[--thirdColor] via-[--firstColor] to-[--thirdColor] h-1" />
+                <h1 className="font-medium text-xl md:text-2xl"> {project.name}</h1>
+                <hr className="mt-2 w-1/2 bg-gradient-to-r from-[--thirdColor] via-[--firstColor] to-[--thirdColor] h-1 md:w-1/6" />
 
-                <article className='mt-5 space-y-5 flex flex-col items-center'>
-                    <img src={project.images[1]} alt={project.name} className='order-1'/>
-                    <p className='order-2'>
+                <article className='mt-5 space-y-5 flex flex-col items-center md:w-10/12 md:mt-20 md:grid md:grid-template-rows: repeat(3, minmax(0, 1fr)) md:grid-cols-2 md:gap-x-32 md:gap-y-10'>
+                    <img src={project.images[1]} alt={project.name} />
+                    <p>
                         {project.introduction}
                     </p>
 
-                    <p className='order-3'>
+                    <p >
                         {project.storyTelling}
-                    </p>
-                    <p className='order-5'>
+                    <span>
                         {project.skills}
+                    </span>
                     </p>
 
-                    <img src={project.images[2]} alt={project.name} className='order-4'/>
+                    <img src={project.images[2]} alt={project.name} className='md:max-w-[70%]'/>
+                    
+                    
 
 
-                    <video controls width="80%" controlsList="nodownload" className='order-6'>
+                    <video controls width="80%" controlsList="nodownload">
                         <source src={project.video} type="video/mp4" />
                         Sorry, your browser doesn't support videos.
                     </video>
 
-                    <p className='order-7'>
+                    <p >
                         {project.conclusion}
-                    </p>
-                    
-                    <div className='order-8 flex justify-start items-center'>
+                    <div className=' flex justify-start items-center mt-5 '>
                     <BsGithub className='mr-2 text-xl'/>
                         <a href={project.githubLink} rel="noreferrer" target="_blank" > {project.name} Github </a>
                     </div>
-
-
+                    </p>
+                    
 
                 </article>
             </section>

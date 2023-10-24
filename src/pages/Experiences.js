@@ -10,10 +10,10 @@ import { MdWorkOutline } from 'react-icons/md'
 
 function Experiences() {
   return (
-    <section className="mt-5 flex flex-col items-center text-[--firstColor] px-5">
-      <h1 className='text-2xl font-semibold text-center'>My educational background and professional experiences</h1>
-      
-      <article className="">
+    <section className="mt-5 flex flex-col mb-16 items-center text-[--firstColor] px-5 md:mt-16">
+      <h1 className='text-2xl font-semibold text-center mt-5'>My educational background and professional experiences</h1>
+      <hr className="mt-3 w-1/2 bg-gradient-to-r from-[--thirdColor] via-[--firstColor] to-[--thirdColor] h-1 md:w-1/4" />
+      <article className="mt-8">
       <VerticalTimeline lineColor="#E94F37">
       <VerticalTimelineElement
           className="vertical-timeline-element--work"

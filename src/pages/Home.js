@@ -1,7 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/home.css";
-import projectsMin from "../assets/portfolio-p1-2-hack.png";
+/* import "../styles/home.css"; */
+import carbonProject from "../assets/carbon_project/carbonProject.png"
+import quizProject from "../assets/quiz/quiz-home.png"
+import exchangeProject from "../assets/hackathon/homexchange.png"
+import inovinProject from "../assets/inovin/bigPrezTablette2.png"
+import nookProject from "../assets/nook/nook1.png"
+
 
 
 function Home() {
@@ -9,30 +14,40 @@ function Home() {
   const pdfUrl = "https://drive.google.com/file/d/1Dt5mLl6rW6jA7uItno5AK7EEPStq2pGM/view?usp=share_link"
 
   return (
-    <div className="home">
-      <div className="about">
-        <h2 className="hello"> Hi, My Name is Florent</h2>
-          <p>A web developer with a passion for learning.</p>
-          <hr></hr>
-            <div className="welcomeTo">
-              <h2 >Welcome to my portfolio, where I share my passion with you.</h2>  
+    <section className="flex flex-col justify-center w-full text-[--firstColor] px-3">
+      <article className="text-center mt-5 flex flex-col items-center">
+        <h1 className="text-2xl font-semibold"> Hi, My Name is Florent</h1>
+          <p className="font-medium text-xl">A web developer with a passion for learning.</p>
+          <hr className="mt-2 w-1/2 bg-gradient-to-r from-[--thirdColor] via-[--firstColor] to-[--thirdColor] h-1" />
+            <div className="mt-5">
+              <h2 className="text-xl font-medium">Welcome to my portfolio, where I share my passion with you.</h2>  
             </div>
-            <section className="linkSection">
-              <a href={pdfUrl} download target="blank" className="homeLinks">Download my Resume &gt;</a>
-              <Link to={"/projects"} className="homeLinks">View my projects &gt; </Link>
-
+            <section className="text-[--secondColor] flex flex-col mt-3">
+              <a href={pdfUrl} download target="blank">&gt; <span className="hover:underline">Download my Resume</span> </a>
+              <Link to={"/projects"} className="">&gt; <span className="hover:underline">View my projects</span></Link>
             </section>
-          
+      </article>
 
-     
-      </div>
-      <div className="presentationImg">
-        <img src={projectsMin} alt="all project thumbnails"></img>
-      </div>
+      <section className="flex flex-col items-center mt-5 w-full h-auto">
+        <article className="bg-gradient-to-b from-[--secondColor] to-[--firstColor] flex justify-center py-5 rounded-2xl">
+          <ul className="w-10/12 h-full space-y-5">
+            <li><img src={quizProject} alt="quiz project thumbnails" /></li>
+            <li><img src={nookProject} alt="animal crossing project thumbnails" /></li>
+            <li><img src={inovinProject} alt="inovin project thumbnails" /></li>
+            <li><img src={exchangeProject} alt=" hackathon project thumbnails" /></li>
+            <li><img src={carbonProject} alt="carbon project thumbnails" /></li>
+          </ul>
+        </article>
+        
+        
+        
+        
+        
+      </section>
       
       
       
-    </div>
+    </section>
   );
 }
 

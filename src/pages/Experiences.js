@@ -6,17 +6,21 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { MdSchool } from 'react-icons/md'
 import { MdWorkOutline } from 'react-icons/md'
-import "../styles/experience.css"
+
 
 function Experiences() {
   return (
-    <div className="experience">
-      <h2>My educational background and professional experiences</h2>
-      <VerticalTimeline lineColor="#592941" >
+    <section className="mt-5 flex flex-col items-center text-[--firstColor] px-5">
+      <h1 className='text-2xl font-semibold text-center'>My educational background and professional experiences</h1>
+      
+      <article className="">
+      <VerticalTimeline lineColor="#E94F37">
       <VerticalTimelineElement
           className="vertical-timeline-element--work"
+          contentStyle={{ background: '#16425B', color: '#D9DCD6' }}
+          contentArrowStyle={{ borderRight: '7px solid  #16425B' }}
           date="2023 - Today"
-          iconStyle={{ background: "#592941", color: "#fff" }}
+          iconStyle={{ background: "#E94F37", color: "#fff" }}
           icon={<MdSchool />}
         >
           
@@ -31,13 +35,15 @@ function Experiences() {
           </p>
           <br/>
           <em>Learning languages, workflow. Group projects, workshops. <br/>
-          HTML, CSS, JavaScript, ReactJS, ExpressJS, NodeJS, MySQL, Git, Github </em>
+          HTML, CSS, JavaScript, ReactJS, ExpressJS, NodeJS, MySQL, Git </em>
 
         </VerticalTimelineElement>
       <VerticalTimelineElement
           className="vertical-timeline-element--work"
+          contentStyle={{ background: '#16425B', color: '#D9DCD6' }}
+          contentArrowStyle={{ borderRight: '7px solid  #16425B' }}
           date="2021 - 2022"
-          iconStyle={{ background: "#592941", color: "#fff" }}
+          iconStyle={{ background: "#E94F37", color: "#fff" }}
           icon={<MdWorkOutline />}
         >
           
@@ -57,8 +63,10 @@ function Experiences() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
+          contentStyle={{ background: '#16425B', color: '#D9DCD6' }}
+          contentArrowStyle={{ borderRight: '7px solid  #16425B' }}
           date="2020 - 2021"
-          iconStyle={{ background: "#592941", color: "#fff" }}
+          iconStyle={{ background: "#E94F37", color: "#fff" }}
           icon={<MdWorkOutline />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -78,8 +86,10 @@ function Experiences() {
         
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
+          contentStyle={{ background: '#16425B', color: '#D9DCD6' }}
+          contentArrowStyle={{ borderRight: '7px solid  #16425B' }}
           date="2019 - 2020"
-          iconStyle={{ background: "#592941", color: "#fff" }}
+          iconStyle={{ background: "#E94F37", color: "#fff" }}
           icon={<MdSchool />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -97,8 +107,10 @@ function Experiences() {
        
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
+          contentStyle={{ background: '#16425B', color: '#D9DCD6' }}
+          contentArrowStyle={{ borderRight: '7px solid  #16425B' }}
           date="2017 - 2019"
-          iconStyle={{ background: "#592941", color: "#fff" }}
+          iconStyle={{ background: "#E94F37", color: "#fff" }}
           icon={<MdSchool />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -115,8 +127,10 @@ function Experiences() {
         
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
+          contentStyle={{ background: '#16425B', color: '#D9DCD6' }}
+          contentArrowStyle={{ borderRight: '7px solid  #16425B' }}
           date="2014 - 2017"
-          iconStyle={{ background: "#592941", color: "#fff" }}
+          iconStyle={{ background: "#E94F37", color: "#fff" }}
           icon={<MdSchool />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -130,7 +144,8 @@ function Experiences() {
           <em>History of Cinema, Theories, Script workshop, Animation workshop...</em>
         </VerticalTimelineElement>
       </VerticalTimeline>
-    </div>
+      </article>
+    </section>
   );
 }
 

@@ -23,7 +23,7 @@ const About = () => {
                             <p className="text-justify md:pt-5 md:ml-10">I have been a web developer since February 2023, learning every day to do more and better. But you'll discover that by visiting this site. Today I want to develop my technical skills with new projects.
                             Before, I worked in audiovisual post-production in Paris and decided to change job and my lifestyle. To tell you about myself, I love the cinema (in the dark room), I like running a lot, it clears my mind and I'm getting better every year. 
                             If you want to talk for hours, talk to me about arts from cartoons to your favourite music of shame with the films you like to watch over and over again.
-                            For example, in music I love Silver Pozzoli's italo disco and in cinema, the closer you get to reality, the more I like it, like the films of Hirokazu Kore-eda. I also have an account on &gt; <a href='https://www.senscritique.com/Brav-Pitt' target='blank' className='underline hover:cursor-pointer'>SensCritique</a> where you can find out all about my preferences.
+                            For example, in music I love Silver Pozzoli's italo disco and in cinema, the closer you get to reality, the more I like it, like the films of Hirokazu Kore-eda. I also have an account on <span className='text-[--secondColor] font-semibold'>&gt; </span><a href='https://www.senscritique.com/Brav-Pitt' target='blank' className='underline hover:cursor-pointer text-[--secondColor] tracking-wider font-semibold'>SensCritique</a> where you can find out all about my preferences.
                             </p> 
                             <img src={koreeda} alt='movie poster of "After the storm" by Hirokazu Kore-eda' className='pt-5 md:w-80'/> {/* figcaption */}
                         </div>
@@ -46,7 +46,7 @@ const About = () => {
                     </article>
                 </section>
         <br />
-        <p className='pt-5'>You need to contact me ? You can send me an email by clicking <span className='text-[--secondColor]'>&gt; <a href="mailto:florent.marin59@gmail.com" className='underline'>here</a></span>.</p>
+        <p className='pt-5'>You need to contact me ? You can send me an email by clicking <span className='text-[--secondColor] font-semibold'>&gt; <a href="mailto:florent.marin59@gmail.com" className='underline tracking-wide font-semibold'>here</a></span>.</p>
       
       </main>
     );

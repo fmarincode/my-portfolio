@@ -1,5 +1,4 @@
 import React from 'react';
-/* import "../styles/footer.css" */
 import {CiLinkedin} from 'react-icons/ci';
 import {BsGithub} from 'react-icons/bs';
 import { Link } from 'react-router-dom';

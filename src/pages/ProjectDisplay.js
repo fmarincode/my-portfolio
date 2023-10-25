@@ -32,7 +32,7 @@ const ProjectDisplay = () => {
                     
 
 
-                    <video controls width="80%" controlsList="nodownload">
+                    <video controls width="80%" className='max-h-80' controlsList="nodownload">
                         <source src={project.video} type="video/mp4" />
                         Sorry, your browser doesn't support videos.
                     </video>

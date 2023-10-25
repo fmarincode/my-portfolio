@@ -19,7 +19,10 @@ import carbonDraw from "../assets/carbon_project/frameCarbon.png"
 import showCarbon from "../assets/carbon_project/showCarbon.png"
 import carbonVideo from "../assets/carbon_project/carbon_video.mp4"
 import carbonThumb from "../assets/carbon_project/carbonProject.png"
-
+import hokaThumb from "../assets/hoka/wishesDesk.png"
+import hokaWireframe from "../assets/hoka/hokaWireframe.png"
+import showHoka from "../assets/hoka/showHoka.png"
+import hokaVideo from "../assets/hoka/hoka_capture.mp4"
 
  
 export const ProjectList = [
@@ -72,7 +75,18 @@ export const ProjectList = [
       storyTelling: "The idea is to indicate the city of departure and arrival, choose your means of transport (plane or car) and use this information to calculate your carbon print. For this project I started by looking for APIs. I found 'Carbon Interface' and 'Map Quest Developer' which are limited for free use and which complement each other well. They are easy to use but processing the data in my project was a big deal.",
 
       conclusion: "I still have a lot to do on this project but I'm really excited by the idea, and the APIs are really good! I've been working on a mobile version, but it's not ready for release yet. ",
-      skills: "To built this app I used JavaScript language with React, Node, Express, MySql, JsonWebToken, Tailwind and Excalidraw for the model.",
+      skills: "To built this app I used JavaScript language with React, Node, Express, MySql, JsonWebToken with argon2, Tailwind and Excalidraw for the model.",
       githubLink: "https://github.com/fmarincode/theCarbonProject",
+    },
+    {
+      name: "The Hok-a-like",
+      images: [hokaThumb, hokaWireframe, showHoka],
+      video: hokaVideo,
+      introduction: "This is a personal project that I needed to convince myself that I can do things. The first time I did an e-commerce site was as part of a group and it was The Nook Shop, when I was just starting out as a developer. The aim was technical, so I took a lot of inspiration from the design of the Hoka online sports equipment store.",
+      storyTelling: "I wanted to make a site that would allow me to use everything I know how to do as I speak. So I did the front and back end of the project, created a database, a means of authentication and some very common commerce site features. So on the site, you can browse through the items on sale, filter them and add them to your wish list or shopping basket. You can register and finish shopping. It was the moment that allowed me to pinpoint a few things I needed to revise. And as with every project, I learnt new things, such as how to use new libraries. ",
+
+      conclusion: "I really enjoyed making this site and I'm pleased with the time I spent on it. Using tailwind is very pleasant and I discovered Yup & Formik for form management. We're making progress. ",
+      skills: "To built this app I used React, Node, Express, MySql, JsonWebToken with argon2, Tailwind, Yup & Formik.",
+      githubLink: "https://github.com/fmarincode/e-comReact",
     }
   ];

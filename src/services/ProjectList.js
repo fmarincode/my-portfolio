@@ -23,8 +23,11 @@ import hokaThumb from "../assets/hoka/wishesDesk.png"
 import hokaWireframe from "../assets/hoka/hokaWireframe.png"
 import showHoka from "../assets/hoka/showHoka.png"
 import hokaVideo from "../assets/hoka/hoka_capture.mp4"
+import figmaMemo from "../assets/memocard/figmaMemo.png"
+import showMemo from "../assets/memocard/prez_projet.png"
+import memoThumb from "../assets/memocard/memocardThumb.webp"
+import memoVideo from "../assets/memocard/memoVideo.mp4"
 
- 
 export const ProjectList = [
     {
       name: "Quiz Time ! An Odyssey Adventure",
@@ -88,5 +91,16 @@ export const ProjectList = [
       conclusion: "I really enjoyed making this site and I'm pleased with the time I spent on it. Using tailwind is very pleasant and I discovered Yup & Formik for form management. We're making progress. ",
       skills: "To built this app I used React, Node, Express, MySql, JsonWebToken with argon2, Tailwind, Yup & Formik.",
       githubLink: "https://github.com/fmarincode/e-comReact",
+    },
+    {
+      name: "Memo Card Game",
+      images: [memoThumb, figmaMemo, showMemo],
+      video: memoVideo,
+      introduction: "This project was inspired by a youtube tutorial. I wanted to practise with mongoDB, so I followed some tutorials on MERN projects and on this card game where you have to find the pairs. Then I personnalised the project with my own ideas.",
+      storyTelling: "This game enabled me to learn how to use mongo and its NoSQL method for databases, in particular to store my images and map data. But I wanted to go further and personalise the user experience by allowing players to add their own themes. You can add a theme, your images and find them the next time you log in. That was my goal. Another new challenge was to put the application online so that my friends could test it and give me feedback, after which I was able to make adjustments. In fact, I don't think I've finished with this project yet. ",
+
+      conclusion: "I loved doing this project. I've had my difficulties, it's not perfect, but I'm happy with myself and I think that's important.",
+      skills: "As I said, it's a MERN by. Mongodb, Express, React, Node, Yup & Formik, Bcrypt, JsonWebToken, Axios, React-Cookies, Tailwind...And I used Render.com to put it online.",
+      githubLink: "https://github.com/fmarincode/memory-game",
     }
   ];

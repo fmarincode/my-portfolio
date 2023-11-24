@@ -25,7 +25,9 @@ const About = () => {
                             If you want to talk for hours, talk to me about arts from cartoons to your favourite music of shame with the films you like to watch over and over again.
                             For example, in music I love Silver Pozzoli's italo disco and in cinema, the closer you get to reality, the more I like it, like the films of Hirokazu Kore-eda. If you want, I also have an account on <span className='text-[--secondColor] font-semibold'>&gt; </span><a href='https://www.senscritique.com/Brav-Pitt' target='blank' className='underline hover:cursor-pointer text-[--secondColor] tracking-wider font-semibold'>SensCritique</a> where you can find out all about my preferences.
                             </p> 
-                            <img src={koreeda} alt='movie poster of "After the storm" by Hirokazu Kore-eda' className='pt-5 md:w-80'/> {/* figcaption */}
+                            
+                                <img src={koreeda} alt='movie poster of "After the storm" by Hirokazu Kore-eda' className='pt-5 md:w-80'/> 
+                                
                         </div>
 
                         
@@ -35,8 +37,9 @@ const About = () => {
 
                             Sometimes the rythm of life changes and we experience a slump, we change according to our emotional states and it's the same when we doing sport activity. The most important thing is to find the motivation to keep going. That's why you can write, talk and get your thoughts out.
                             When I'm running, I think about everything that's going well and everything that's not. When I've finished running, I get new ideas and I'm off on the right foot again. It's like my spare wheel.</p>
-
-                            <img src={runningPic} alt='a runner' className='pt-5 md:w-80'/>{/* figcaption */}
+        
+                            <img src={runningPic} alt='a runner' className='pt-5 md:w-80'/>
+                            
                         </div>
 
                             <div className='md:flex md:w-full md:justify-center'>

@@ -6,11 +6,11 @@ import exchangeProject from "../assets/hackathon/homexchange.png"
 import inovinProject from "../assets/inovin/bigPrezTablette2.png"
 import nookProject from "../assets/nook/nook1.png"
 import hokaProject from "../assets/hoka/homeDesk.png"
-
+import memoProject from "../assets/memocard/memocard-x.png"
 
 function Home() {
 
-  const pdfUrl = "https://drive.google.com/file/d/1Dt5mLl6rW6jA7uItno5AK7EEPStq2pGM/view?usp=share_link"
+  const pdfUrl = "https://drive.google.com/file/d/1VcYOyvbNUJgynqNhUkSiEbxU2OZJlrA7/view?usp=sharing"
 
   return (
     <section className="flex flex-col justify-center w-full mb-16 text-[--firstColor] px-3 md:mt-16 md:flex-row md:px-16 md:justify-center md:space-x-56 md:h-auto md:items-start">
@@ -30,14 +30,18 @@ function Home() {
               <h2 className="underline decoration-wavy font-bold">What's news ?</h2>
             </header>
             <article className="px-3 py-3 text-left">
-              <p> <span className="text-[--secondColor] font-bold">&gt; </span> October the 25th 2023</p>
+              <p className="text-[--secondColor] font-bold"> <span>&gt;</span> October the 25th 2023</p>
               <hr className="bg-[--firstColor] h-0.5"/>
-                <h3 className="text-center py-2">Update :</h3> 
-              <ul className="list-disc pl-3 space-y-2">
+              <ul className="list-disc pl-3 space-y-2 py-2">
                 <li>Addition of this update log.</li>
                 <li>Addition of <Link to={"/project/5"} className="hover:underline text-[--secondColor] font-semibold tracking-wide">The Hok-a-like</Link> project.</li>
                 <li>Colour change & font-style to find a better contrast.</li>
                 <li>Addition of photos and details for the <Link to={"/about"} className="hover:underline text-[--secondColor] font-semibold tracking-wide">About Me</Link> page to make the portfolio more personal.</li>          
+              </ul>
+              <p className="text-[--secondColor] font-bold"> <span>&gt;</span> November the 21st 2023</p>
+              <hr className="bg-[--firstColor] h-0.5"/>
+              <ul className="list-disc pl-3 space-y-2 py-2">
+                <li>Addition of <Link to={"/project/6"} className="hover:underline text-[--secondColor] font-semibold tracking-wide">Memo Card Game</Link> project.</li>
               </ul>
             </article>
           </article>
@@ -53,6 +57,7 @@ function Home() {
             <li className="md:carousel-item"><img src={exchangeProject} alt=" hackathon project thumbnails" /></li>
             <li className="md:carousel-item"><img src={carbonProject} alt="carbon project thumbnails" /></li>
             <li className="md:carousel-item"><img src={hokaProject} alt="hoka project thumbnails" /></li>
+            <li className="md:carousel-item"><img src={memoProject} alt="memocard project thumbnails"/></li>
           </ul>
         </article>
       </section>    

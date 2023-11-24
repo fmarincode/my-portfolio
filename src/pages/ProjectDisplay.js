@@ -7,7 +7,7 @@ import { BsGithub } from 'react-icons/bs';
 const ProjectDisplay = () => {
     const { id } = useParams()
     const project = ProjectList[id]
-
+    
     return (
         <main className='flex flex-col items-center w-full px-5 text-[--firstColor] mb-16 md:mt-16'>
             <section className='mt-5 text-justify flex flex-col items-center'>
@@ -39,6 +39,7 @@ const ProjectDisplay = () => {
 
                     <p >
                         {project.conclusion}
+                        {id == 6 && <p><a href='https://memocardgame.onrender.com/' rel="noreferrer" target='_blank' className='underline'>Here's the link to the app rendering.</a></p>}
                     <div className=' flex justify-start items-center mt-5 '>
                     <BsGithub className='mr-2 text-xl'/>
                         <a href={project.githubLink} rel="noreferrer" target="_blank" > {project.name} Github </a>
